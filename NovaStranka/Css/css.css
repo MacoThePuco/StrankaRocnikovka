@@ -1,0 +1,18 @@
+body {
+    background-color: #03131a;
+}
+
+#box {
+    width:50%;
+    height: 100px;
+    color: #1a4651;
+    background-color: #d4ff9d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#farby{
+  color: #f8f8f8;
+  color: #d4ff9d;
+  color: #1a4651;
+  color: #8b6967;    
+}
