@@ -26,23 +26,68 @@ body {
 
 #box #inside{
     width: 100%;
+    display: flex;
 }
 
-#inside p{
-    text-align: center;
+#right{
+    width:40%;
+}
+
+#left{
+    width:60%;
+}
+
+#left p{
+    text-align: right;
     font-size: 100px;
-}
-
-#bigText{
-
     font-family: 'BigTextFont';
 }
 
-#scribble{
+
+#right ul li{
+    text-align: left;
+    font-size: 100px;
     font-family: 'ScribbleFont';
+    
+    animation: rollTextAnimation 5s linear infinite;
+    height: 150px;
+}
+
+#right ul li a{
+    text-decoration: none;
     color: #d4ff9d;
 }
 
+#right ul{
+    list-style-type: none;
+    overflow: hidden;
+    height: 150px;
+    transform: translate(0px, 65px);
+}
+
+@keyframes rollTextAnimation{
+    0%{
+        transform: translateY(0px);
+    }
+    28%{
+        transform: translateY(0px);
+    }
+    33%{
+        transform: translateY(-150px);
+    }
+    61%{
+        transform: translateY(-150px);
+    }
+    66%{
+        transform: translateY(-300px);
+    }
+    95%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(-450px);
+    }
+}
 
 #header{
     width: 100%;
