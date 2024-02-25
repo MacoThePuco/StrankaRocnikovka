@@ -1,5 +1,4 @@
 body {
-    background-color: #03131a;
     margin: 0;
 }
 
@@ -17,11 +16,11 @@ body {
     width:100%;
     height: 100%;
     color: #92daec;
-    background-color: #03131a;
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-image: linear-gradient(#1a4651, #03131a);
 }
 
 #box #inside{
@@ -92,17 +91,68 @@ body {
 #header{
     width: 100%;
     height: 100px;
-    background-color: #09191d;
+    background-color: #1a4651;
 }
 
 #header p{
-    margin: 0;
+    font-family: "BigTextFont";
+    font-size: 66px;
+    text-align: right;
+    transform: translateY(11px);
+    margin-right: 20px;
 }
 
+#header a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+
+#obsah{
+    width: 100%;
+    background-color: #03131a;
+}
+
+#obsah #Headline{
+    font-size: 75px;
+    margin: 0;
+    padding: 25px;
+    font-family: "BigTextFont";
+    color:#92daec;
+}
+
+#obsah p{
+    margin-top: 0;
+    font-size: 30px;
+    padding: 25px;
+    padding-top: 0;
+    color:#f8f8f8;
+}
+
+
+
+
+
+
+#pata {
+    border-top-width: 5px;
+    border-color: #1a4651;
+    border: 5px;
+    background-color: #03131a;
+}
+
+
+
+
+
+
+
 #farby{
-  color: #f8f8f8;
-  color: #d4ff9d;
-  color: #1a4651;
-  color: #8b6967;    
-  color: #92daec;
+
+    color: #f8f8f8;
+    color: #d4ff9d;
+    color: #1a4651;
+    color: #8b6967;    
+    color: #92daec;
+    color: #03131a;
 }
