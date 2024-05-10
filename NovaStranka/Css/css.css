@@ -100,6 +100,7 @@ body {
     margin-left: 25px;
     margin-top: 15px;
     cursor: pointer;
+    border-color: #1a4651;
 }
 
 #header button img{
@@ -141,6 +142,29 @@ body {
     background-color: #03131a;
 }
 
+
+#obsah2{
+    width: 100%;
+    background-image: linear-gradient(#1a4651, #03131a);
+}
+
+#obsah2 #Headline{
+    font-size: 75px;
+    margin: 0;
+    padding: 25px;
+    font-family: "BigTextFont";
+    color:#92daec;
+}
+
+#obsah2 p{
+    margin-top: 0;
+    font-size: 30px;
+    padding: 25px;
+    margin-bottom: 0;
+    padding-top: 0;
+    color:#f8f8f8;
+}
+
 #obsah #Headline{
     font-size: 75px;
     margin: 0;
@@ -159,20 +183,12 @@ body {
 
 
 
-
-
-
 #pata {
     border-top-width: 5px;
     border-color: #1a4651;
     border: 5px;
     background-color: #03131a;
 }
-
-
-
-
-
 
 
 #farby{
