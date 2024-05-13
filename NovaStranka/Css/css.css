@@ -68,24 +68,47 @@ body {
     0%{
         transform: translateY(0px);
     }
-    28%{
+    11%{
         transform: translateY(0px);
     }
-    33%{
+    16%{
         transform: translateY(-150px);
     }
-    61%{
+    27%{
         transform: translateY(-150px);
     }
-    66%{
+    32%{
         transform: translateY(-300px);
     }
-    95%{
+    43%{
         transform: translateY(-300px);
     }
-    100%{
+    48%{
         transform: translateY(-450px);
     }
+    59%{
+        transform: translateY(-450px);
+    }
+    64%{
+        transform: translateY(-600px);
+    }
+    75%{
+        transform: translateY(-600px);
+    }
+    80%{
+        transform: translateY(-750px);
+    }
+    91%{
+        transform: translateY(-750px);
+    }
+    96%{
+        transform: translateY(-900px);
+    }
+    100%{
+        transform: translateY(-900px);
+    }
+
+
 }
 
 #header{
@@ -117,6 +140,8 @@ body {
     margin-left: 100px;
 }
 
+
+
 #header #inside{
     width: 100%;
 }
@@ -124,6 +149,13 @@ body {
 #header a{
     text-decoration: none;
     color: #f8f8f8;
+    transition: 0.5s;
+
+}
+
+#header a:hover{
+    color: #92daec;
+    transition: 0.2s;
 }
 
 #menu{
