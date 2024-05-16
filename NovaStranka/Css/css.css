@@ -172,55 +172,10 @@ body {
     margin-left: 25px;
 }
 
-#obsah2{
-    width: 100%;
-    background-image: linear-gradient(#1a4651, #03131a);
-}
-
-#obsah2 #Headline{
-    font-size: 75px;
-    margin: 0;
-    padding: 25px;
-    font-family: "BigTextFont";
-    color:#92daec;
-}
-
 #obsah{
     width: 100%;
     background-color: #03131a;
 
-}
-
-#obsah2 p{
-    margin-top: 0;
-    font-size: 30px;
-    padding: 25px;
-    margin-bottom: 0;
-    padding-top: 0;
-    color:#f8f8f8;
-}
-
-
-#obsah2{
-    width: 100%;
-    background-image: linear-gradient(#1a4651, #03131a);
-}
-
-#obsah2 #Headline{
-    font-size: 75px;
-    margin: 0;
-    padding: 25px;
-    font-family: "BigTextFont";
-    color:#92daec;
-}
-
-#obsah2 p{
-    margin-top: 0;
-    font-size: 30px;
-    padding: 25px;
-    margin-bottom: 0;
-    padding-top: 0;
-    color:#f8f8f8;
 }
 
 #obsah #Headline{
@@ -234,6 +189,15 @@ body {
 
 }
 
+#obsah #Headline2{
+    font-size: 50px;
+    margin: 0;
+    padding: 25px;
+    font-family: "BigTextFont";
+    color:#92daec;
+    padding-left: 250px;
+}
+
 #obsah p{
     margin-top: 0;
     margin-bottom: 0;
@@ -245,6 +209,33 @@ body {
     padding-right: 250px;
     text-indent: 50px;
     font-family: "Roboto";
+}
+
+#obsah p a{
+    color:#f8f8f8;
+    transition: 0.2s;
+}
+
+#obsah p a:hover{
+    color:#92daec;
+    transition: 0.2s;
+}
+
+#obsah ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 125px;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 0;
+    color:#f8f8f8;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: "Roboto";
+}
+
+#obrazok{
+    width:100%
 }
 
 #pata {
