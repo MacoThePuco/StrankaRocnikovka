@@ -235,7 +235,9 @@ body {
 }
 
 #obrazok{
-    width:100%
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #pata {
